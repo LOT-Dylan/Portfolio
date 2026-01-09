@@ -1,0 +1,24 @@
+
+
+header ul {
+
+    list-style: none;
+    border: 1em solid black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#logo-general{
+    width: 25%;
+    height: 25%;
+
+}
+
+.logo-container{
+    display: flex;
+    
+}
+
+
+
