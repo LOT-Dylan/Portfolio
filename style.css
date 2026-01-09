@@ -1,0 +1,148 @@
+/*Pense bête*/
+/*exemple*/
+    /*Taille du texte*/
+    font-size: 44px;
+    /*Couleur*/
+    color: rgb(255, 0, 0);
+    /*Police d'écriture*/
+    font-family: "Iceberg", sans-serif;
+    /*Epaisseur du texte*/
+    font-weight: 400;
+    /*Alignement du texte*/
+    text-align: center;
+    font-style: normal;
+    /*Largeur de la Division*/
+    width: 65%;
+    /*Hauteur de la Division*/
+    height: 300px;
+    /*Couleur de l'arrière plan*/
+    background-color: rgb(0, 0, 0);
+    /*Marge Extérieure*/
+    margin: 10%;
+    /*Marge Intérieure*/
+    padding: 10px;
+    /*Bordure*/
+    border: 2px;
+    /*Arrondi des coins*/
+    border-radius: 12px;
+    /*Ombre*/
+    box-shadow: 3px 3px 8px black;
+
+:root{
+    --base-color: white;
+    --base-variant: #e8e9ed;
+    --text-color: #111528;
+    --secondary-text: #232738;
+    --primary-color: #3a435d;
+    --accent-color: #0071ff;
+}
+
+
+/*Darkmode Setting*/
+.darkmode{
+    --base-color: #070b1d;
+    --base-variant: #101425;
+    --text-color: #ffffff;
+    --secondary-text: #a4a5b8;
+    --primary-color: #3a435d;
+    --accent-color: #0071ff;
+}
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#theme-switch svg{
+    fill: var(--primary-color);
+}
+#theme-switch svg:last-child{
+    display: none;
+}
+.darkmode #theme-switch svg:last-child{
+    display: none;
+}
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p:hover {
+    color: rgb(255, 136, 0);
+}
+img {
+    opacity: 1;
+}
+/* Header Config*/
+.html {
+    height: 100%;
+    font-family: "iceberg";
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+.body {
+    background-color: var(--base-color);
+    color: var(--text-color);
+    font-family: "iceberg";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    min-height: 100vh;
+    margin: 0;
+    display: block;
+}
+h1{
+    font-family: "iceberg", sans-serif;
+}
+.Intro_text{
+    font-size: 32px;
+    color: rgb(138, 13, 132);
+}
+.Title{
+    font-size: 45px;
+    color: brown;
+}
+* 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 200px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    letter-spacing: normal;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/*Thingymybob*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
